@@ -1,0 +1,30 @@
+**Key Features Of The Dataset**
+
+Every record registers the following:
+
+Heart rate (ECG: bpm) and ECG Oxygen levels - SpO₂ Body temperature in °C Height in cm and Weight in kg Age and Gender Gene expression biomarkers (IL-6 and Troponin T) ICD-10 codes Ailments - Myocardial Infarction, Dengue etc.
+
+Computed IV flow rate using AWSPD algorithm-based metrics
+
+Patient remarks and their Timestamp Computed vs Ideal flow rate, and percentage accuracy
+
+
+**Novelty**
+
+The primary focus of this work is the dynamic computation of IV flow rate using the multi-sensor data AWSPD algorithm alongside; networked IoMT sensors data aggregation as Patient specific metrics Consideration of Clinical relevance through ICD-10 mapping alongside correlation of gene expression.
+
+**File Contents**
+
+Full Dataset with 100,000 entries is contained in AWSPDIV1LakhEntries.csv Python script used to generate the dataset is contained in generateawspd_data.py Optional sample analysis notebooks in future updates Algorithm Logic and Mathematical Model
+
+
+**Potential Use Cases**
+
+Smart infusion pump calibration research IoMT-based health profile generation AI-enabled clinical decision-making tools Abnormal event classification of patients in ICUs - automation and remote Flow control in real-time injection modes (Paracetamol, Anesthesia)
+
+Responsive flow injection techniques (dosing)
+
+**Citation**
+
+We encourage, in advancing IoMT-enabled body health monitoring systems, appropriate citation about the contribution in scholarly works based on them
+
